@@ -578,7 +578,8 @@ export default class Scrollbars extends Component {
                 createElement('div', { style: {
                   float: 'left',
                   paddingRight: scrollbarWidth,
-                  paddingBottom: scrollbarWidth
+                  paddingBottom: scrollbarWidth,
+                  width: '100%'
                 } }, children)
             ),
             cloneElement(
